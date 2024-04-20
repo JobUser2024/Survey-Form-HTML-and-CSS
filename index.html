@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body bgcolor="purple">
+    <h1 style="text-align: center;">Internship Survey Form</h1>
+
+    <div class="survey">
+        <div class="name">
+                <p style="margin-bottom: 5px;">Name</p>
+                <input type="text" size="50" placeholder="Enter your name..."/>
+        </div>
+        <div class="email">
+                <p style="margin-bottom: 5px;">Email</p>
+                <input type="text" size="50" placeholder="Enter your email..."/>
+        </div>
+        <div class="age">
+            <p style="margin-bottom: 5px;">Age</p>
+            <input type="age" size="50" placeholder="Enter your age..."/>
+        </div>
+        <div class="option">
+            <p style="margin-bottom: 5px;">Which option best describe you?</p>
+            <select name="option" id="option">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="recommend">
+            <form>
+                <p style="margin-bottom: 5px;">Would you recommend our Company to a friend?</p>
+               <input type="radio">Yes
+               <br>
+               <input type="radio">No
+               <br>
+               <input type="radio">Maybe
+            </form>
+        </div>
+        <div class="recommend">
+            <form>
+                <p style="margin-bottom: 5px;">Languages and Frameworks known <small>(Check all that apply)</small></p>
+               <input type="checkbox">HTML
+               <br>
+               <input type="checkbox">CSS
+               <br>
+               <input type="checkbox">Tailwind
+               <br>
+               <input type="checkbox">BootStrap
+               <br>
+               <input type="checkbox">JavaScript
+               <br>
+               <input type="checkbox">React.js
+               <br>
+               <input type="checkbox">Vue.js
+               <br>
+               <input type="checkbox">Python
+               <br>
+               <input type="checkbox">Node.js
+               <br>
+               <input type="checkbox">ASP.NET Core
+               <br>
+               <input type="checkbox">Angular
+               <br>
+               <input type="checkbox">Typescript
+               <br>
+               <input type="checkbox">MongoDB
+               <br>
+               <input type="checkbox">MSSQL
+               <br>
+               <input type="checkbox">MySQL
+            </form>
+        </div>
+        <div class="comment">
+            <p style="margin-bottom: 5px;">Any comments or suggestions</p>
+            <textarea name="comment" id="suggest" cols="30" rows="5" placeholder="Enter your comments or suggestions..."></textarea>
+        </div>
+        <div class="button">
+            <input type="button" value="Submit" id="button" onclick="msg()">
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
