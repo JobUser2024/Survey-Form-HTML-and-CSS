@@ -1,0 +1,48 @@
+.survey{
+    border: 3px solid white;
+    width: 400px;
+    height: 890px;
+    margin-left: 430px;
+    background-color: white;
+}
+
+.name{
+    padding-left: 15px;
+}
+
+.email{
+    padding-left: 15px;
+}
+
+.age{
+    padding-left: 15px;
+}
+
+.option{
+    padding-left: 15px;
+}
+
+#option{
+    width:370px;
+}
+
+.recommend{
+    padding-left: 15px;
+}
+
+.comment{
+    padding-left: 15px;
+}
+
+#button{
+    width: 375px;
+    height: 30px;
+    background-color: purple;
+    font-size: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
